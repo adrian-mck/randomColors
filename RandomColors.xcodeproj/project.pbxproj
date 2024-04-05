@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		DAB35CDD2B619D9E0007C275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB35CDC2B619D9E0007C275 /* AppDelegate.swift */; };
 		DAB35CDF2B619D9E0007C275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB35CDE2B619D9E0007C275 /* SceneDelegate.swift */; };
-		DAB35CE12B619D9E0007C275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB35CE02B619D9E0007C275 /* ViewController.swift */; };
 		DAB35CE42B619D9E0007C275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB35CE22B619D9E0007C275 /* Main.storyboard */; };
 		DAB35CE62B619DA10007C275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB35CE52B619DA10007C275 /* Assets.xcassets */; };
 		DAB35CE92B619DA10007C275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB35CE72B619DA10007C275 /* LaunchScreen.storyboard */; };
+		DAB35CF12B619E240007C275 /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB35CF02B619E240007C275 /* ColorsTableVC.swift */; };
+		DAB35CF32B619F380007C275 /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB35CF22B619F380007C275 /* ColorsDetailVC.swift */; };
+		DAD497C62B61B7E500CC4028 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD497C52B61B7E500CC4028 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAB35CD92B619D9E0007C275 /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB35CDC2B619D9E0007C275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB35CDE2B619D9E0007C275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAB35CE02B619D9E0007C275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAB35CE32B619D9E0007C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAB35CE52B619DA10007C275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB35CE82B619DA10007C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB35CEA2B619DA10007C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB35CF02B619E240007C275 /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		DAB35CF22B619F380007C275 /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
+		DAD497C52B61B7E500CC4028 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				DAB35CDC2B619D9E0007C275 /* AppDelegate.swift */,
 				DAB35CDE2B619D9E0007C275 /* SceneDelegate.swift */,
-				DAB35CE02B619D9E0007C275 /* ViewController.swift */,
 				DAB35CE22B619D9E0007C275 /* Main.storyboard */,
+				DAB35CF02B619E240007C275 /* ColorsTableVC.swift */,
+				DAD497C52B61B7E500CC4028 /* UIColor+Ext.swift */,
+				DAB35CF22B619F380007C275 /* ColorsDetailVC.swift */,
 				DAB35CE52B619DA10007C275 /* Assets.xcassets */,
 				DAB35CE72B619DA10007C275 /* LaunchScreen.storyboard */,
 				DAB35CEA2B619DA10007C275 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB35CE12B619D9E0007C275 /* ViewController.swift in Sources */,
+				DAB35CF12B619E240007C275 /* ColorsTableVC.swift in Sources */,
+				DAB35CF32B619F380007C275 /* ColorsDetailVC.swift in Sources */,
+				DAD497C62B61B7E500CC4028 /* UIColor+Ext.swift in Sources */,
 				DAB35CDD2B619D9E0007C275 /* AppDelegate.swift in Sources */,
 				DAB35CDF2B619D9E0007C275 /* SceneDelegate.swift in Sources */,
 			);
